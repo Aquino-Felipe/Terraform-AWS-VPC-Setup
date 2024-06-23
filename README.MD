@@ -83,7 +83,7 @@ With our working directory now initialized, we can generate an execution plan. T
 terraform plan
 ```
 
-![alt text](terraform-plan.png)
+![terraform-plan](https://github.com/Aquino-Felipe/Terraform-AWS-VPC-Setup/assets/105683421/539d53a6-3230-44e0-a851-188f98761a6f)
 
 ## Apply Terraform Configuration
 
@@ -161,7 +161,7 @@ To remove your resources, run the following command in the terminal. Terraform w
 ```sh
 terraform destroy -auto-approve
 ```
-![alt text](terraform-destroy.png)
+![terraform-destroy](https://github.com/Aquino-Felipe/Terraform-AWS-VPC-Setup/assets/105683421/a249f5c5-6347-433e-ba0b-bd3e0225bee2)
 
 ## Conclusion
 #### Congratulations! You have successfully set up a VPC with multiple subnets, an Internet Gateway, a NAT Gateway, and associated route tables using Terraform. This automated process ensures a consistent and repeatable infrastructure setup, making it easier to manage and scale your AWS resources. By following these steps, you have learned how to:
